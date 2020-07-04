@@ -27,6 +27,8 @@ Did you know that you can put nutmeg in your coffee? I highly recommend it.
 - Eat spaghetti
 - Drink wine
 
+![picture of spaghetti](images/spaghetti.jpg)
+
 ------------------
 
 ## Going to sleep
