@@ -2,6 +2,6 @@
 
 ## Create documents from templates
 
-* **.docx** `pandoc --reference-doc templates/reference.docx -o document.docx sample_doc.md`
+* **.docx** `pandoc --reference-doc templates/reference.docx -o output/document.docx src/sample_doc.md`
 
-* **.pptx** `pandoc --reference-doc templates/reference.pptx -o presentation.pptx sample_ppt.md`
+* **.pptx** `pandoc --reference-doc templates/reference.pptx -o output/presentation.pptx src/sample_ppt.md`

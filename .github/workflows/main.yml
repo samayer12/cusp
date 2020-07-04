@@ -30,8 +30,8 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        pandoc --reference-doc templates/reference.docx -o document.docx sample_doc.md
-        pandoc --reference-doc templates/reference.pptx -o presentation.pptx sample_ppt.md
+        pandoc --reference-doc templates/reference.docx -o output/document.docx src/sample_doc.md
+        pandoc --reference-doc templates/reference.pptx -o output/presentation.pptx src/sample_ppt.md
         
     # Upload artifacts
     - name: Upload a Build Artifact
