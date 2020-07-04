@@ -29,8 +29,6 @@ Did you know that you can put nutmeg in your coffee? I highly recommend it.
 
 ------------------
 
-![picture of spaghetti](images/spaghetti.jpg)
-
 ## Going to sleep
 
 - Get in bed
