@@ -18,8 +18,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          mkdir output  # create output dir
       - uses: docker://pandoc/core:2.9
         with:
           args: --reference-doc templates/reference.docx --output=output/document.docx src/sample_doc.md
